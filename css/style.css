@@ -1,0 +1,1208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    margin-bottom: 0px;
+
+}
+
+.navigation a{
+    color: #868e96;
+    margin-left: 20px;
+}
+
+.nav-item a{
+    color: #868e96 !important;
+}
+
+
+.nav-item a:hover{
+    color: #fff !important;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.carousel-item {
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+  }
+  
+.carousel-item img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 3sec ease-in-out;
+}
+
+.carousel-caption {
+    position: relative;
+    top: 150px;
+    transform: translatey(-50%);
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+
+.carousel-caption h1{
+    font-weight: 900;
+}
+
+.carousel-caption p{
+    font-size: larger;
+}
+
+.carousel-caption button{
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: smaller;
+    letter-spacing: 2px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+}
+
+.carousel-caption a{
+    color: #fff;
+    font-size: smaller;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    top: 12px;
+
+}
+
+
+.carousel-caption button:hover{
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #262626;
+}
+
+
+.carousel-caption a:hover{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.carousel-indicators:hover {
+    cursor: pointer;
+}
+
+  
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+  
+
+.secondbox img{
+    margin-bottom: 200px;
+}
+
+
+.secondbox h2{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 50px;
+}
+
+
+.secondbox h6{
+    display: block;
+    margin-bottom: 60px;
+    color: #ffc107;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.secondbox p{
+    color: #868e96;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+
+.secondbox a{
+    text-decoration: none;
+    color: #ffc107;
+}
+
+
+.secondbox a:hover{
+    text-decoration: none;
+}
+
+
+.thirdbox{
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+
+
+
+
+.thirdbox h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
+.thirdbox p{
+    text-align: center;
+    color: #868e96;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+    
+.carousel {
+    background-color: #f8f9fa;
+    margin: 20px auto;
+    border-radius: 10px;
+    height: 458.26px;
+    margin-bottom: 30px;
+}
+    
+.carousel-cell {
+    margin-right: 10px; 
+    text-align: center; 
+    width: 100%;
+}
+    
+   
+.owner img {
+    border-radius: 0%; 
+    object-fit: cover; 
+    transition: transform 0.3s ease-in-out;
+}
+    
+  
+ 
+.owner h5 {
+    font-size: 18px;
+    color: #333;
+}
+
+
+.thirdbox h5{
+   padding: 30px;
+    font-weight: 400;
+    margin-bottom:200px;
+    background-color: #fff;
+    font-size: 21px;
+    text-align: center; 
+}
+
+
+.fourthbox img{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.fourthbox h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
+.fourthbox p{
+    text-align: center;
+    color: #868e96;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+.dog-gallery img {
+    transition: transform 0.4s ease, filter 0.4s ease; 
+}
+
+.dog-gallery img:hover {
+      transform: scale(1.05); 
+      filter: brightness(1.1); 
+}
+
+
+
+.fifthbox h2{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
+.fifthbox p{
+    text-align: center;
+    color: #868e96;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-weight: 300;
+}
+
+
+.left-box{
+    float: left;
+}
+
+
+.right-box{
+    float: right;
+}
+
+
+.blog-left{
+    float: left;
+    margin-bottom: 100px;
+}
+
+
+.blog-left img:hover{
+    transform: none;
+}
+
+
+.blog-right{
+    float: right;
+    padding-left: 30px;
+}
+
+
+.blog-right span{
+    letter-spacing: 2px;
+    color: #868e96;
+    font-size: 15px;
+}
+
+
+.blog-right a{
+    text-decoration: none;
+    color: #ffc10f;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.blog-right a:hover{
+    text-decoration: none;
+    color: #ba8d23;
+
+}
+
+
+.blog-right p{
+    text-align: left;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: 15px;
+}
+
+
+.blog-right button{
+    font-size: small;
+    padding: 5px 30px 5px 30px;
+    color: white;
+    background-color: #f4b214;
+    letter-spacing: 1px;
+    margin-top: -100px;
+}
+
+
+.blog-right button:hover{
+    background-color: #ffc107;   
+    color: #fff;
+}
+
+
+.top{
+    margin-bottom: 64px;
+}
+
+
+.top-left{
+    float: left;
+}
+
+
+.top-right{
+    float: right;   
+}
+
+
+.top-right span{
+    color: #868e96;
+    letter-spacing: 1px;
+    margin-left: 0px;
+}
+
+
+.top-right h3{
+    font-size: 25px;
+}
+
+
+.top-right a{
+    text-decoration: none;
+    color:#ffc10f;
+    font-size: 20px;
+    font-weight: 500;
+   line-height: 1px;
+   padding-left: 0px;
+}
+
+
+.top-right a:hover{
+    color: #ba8d23;
+    text-decoration: none;
+}
+
+
+.top-right button{
+    font-size: small;
+    padding: 5px 30px 5px 30px;
+    color: white;
+    background-color: #f4b214;
+    letter-spacing: 1px;
+    margin-left: 0px;
+    margin-top: -30px;
+}
+
+
+.top-right button:hover{
+    color: #ffc107; 
+    color: #fff;
+}
+
+
+.bottom{
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+
+.bottom-left{
+    float: left;
+}
+
+
+.bottom-right{
+    float: right;
+    padding-left: 30px;
+}
+
+
+.bottom-right span{
+    color: #868e96;
+    letter-spacing: 1px;
+    margin-left: 0px;
+}
+
+.bottom-right h3{
+    font-size: 25px;
+}
+
+
+.bottom-right a{
+    text-decoration: none;
+    color:#ffc10f;
+    font-size: 20px;
+    font-weight: 500;
+   line-height: 1px;
+   padding-left: 0px;
+}
+
+
+.bottom-right a:hover{
+    color: #ba8d23;
+    text-decoration: none;
+}
+
+
+.bottom-right button{
+    font-size: small;
+    padding: 5px 30px 5px 30px;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #ffc107;  
+
+    margin-left: 0px;
+}
+
+
+.bottom-right button:hover{
+    color: #fff;
+    background-color: #f4b214;
+
+}
+
+
+.footer{
+    background-color:#262626;
+    color: #fff;
+}
+
+
+.boxone h3{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+
+.boxone p{
+    color: #868e96;
+    margin-top: 20px ;
+    font-size: 17px;
+}
+
+.social-menu ul{
+    padding-left: 0px;
+    margin-top: 40px;
+
+}
+
+.boxone i{
+    color: #ffc107;
+    border: 1px solid #ba8d23;
+    border-radius: 40%;
+    padding: 7px;
+    background-color: #262626;
+    font-size: 15px;
+    margin-right: 7px;
+   
+}
+
+.boxone i:hover{
+    background-color: #fff;
+    color: #262626;
+}
+
+
+
+.boxtwo h3{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size:21px;
+}
+
+
+.boxtwo p{
+    color: #868e96;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+
+
+.boxtwo h6{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+
+.boxthree h3{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size:21px;
+    margin-left: 110px;
+}
+
+
+.boxthree ul{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+.boxthree li{
+    margin-bottom: 20px;
+    list-style: none;
+
+}
+
+
+.boxthree a{
+    text-decoration: none;
+    color: #ffc107;
+    font-size: 17px;
+}
+
+
+.boxthree a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.copyright p{
+    text-align: center;
+    color: #868e96;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+@media only screen  and (max-width:750px) and (min-width:200px){
+
+    html,body{
+        margin: 0px ;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .carousel-caption p{
+        font-size: small;
+    }
+
+    .carousel-item{
+        height: 500px;
+    }
+    .boxone h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+
+    .secondbox h2{
+        text-align: left;
+        font-weight: 400;
+    }
+
+    
+    .secondbox h6{
+        text-align: left;
+        font-weight: 500;
+    }
+
+
+
+    .secondbox img{
+        margin-bottom: 20px;
+    }
+
+
+    .secondbox p{
+        font-size: 16px;
+    }
+
+
+    .secondbox a{
+        font-size:18px ;
+        text-decoration: none;
+        margin-bottom: 40px;
+
+    }
+
+
+   
+    .thirdbox h5 {
+        width: 362px;
+        padding: 10px 0px;
+        margin: 0 auto;
+    }
+   
+
+
+    
+    .thirdbox p{
+        margin-bottom: 50px;
+    }
+
+    .fourthbox h2{
+        margin-top: 50px;
+    }
+
+    
+    .fourthbox p{
+        margin-bottom: 50px;
+    }
+
+    .flickity-page-dots {
+        position: relative;
+        width: 100%;
+        bottom: 20px;
+    }
+
+
+    .dog-gallery img{
+        margin-bottom: 40px;
+    }
+
+    .fifthbox h2{
+        margin-top: 0px;
+    }
+
+    
+    .fifthbox p{
+        margin-bottom: 30px;
+    }
+
+    
+    .blog-right{
+        float: right;
+        padding-left: 30px;
+        margin-top: -100px;
+    }
+
+
+    .blog-right span{
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+
+    .blog-right h3{
+        font-size: 21px;
+
+    }
+
+
+    .blog-right a{
+        font-weight: 600;
+        font-size: 21px;
+        margin-top: 20px;
+    }
+
+
+    .blog-right p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-top: 15px;
+    }
+
+
+    .blog-right button{
+        font-size: 16px;
+        padding: 8px 30px 8px 30px;
+    }
+
+
+    .top-right h3{
+        margin-top: 10px;
+    }
+
+
+    .top-right a{
+        font-size: 21px;
+    }
+
+
+    .top-right button{
+        font-size: 16px;
+        padding: 8px 30px 8px 30px;
+        margin-bottom: 30px;
+        margin-top: -20px;
+    }
+
+
+    .bottom-right h3{
+        margin-top: 10px;
+    }
+
+
+    .bottom-right a{
+        font-size: 21px;
+    }
+
+
+    .bottom-right button{
+        font-size: 16px;
+        padding: 8px 30px 8px 30px;
+        margin-bottom: 40px;
+        margin-top: -20px;
+    }
+
+
+    .boxone h3{
+        margin-top: 70px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+
+    .boxone p{
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+
+
+    .boxtwo h3{
+        margin-top: 70px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+
+    .boxtwo p{
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+
+
+    .boxtwo h6{
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+
+    .boxthree h3{
+        margin-top: 70px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .owner img{
+        width: 70%;
+    }
+
+
+    .boxthree ul{
+        margin-left:0px ;
+        padding: 0px;
+    }
+
+
+    .boxthree a{
+        font-size: 17px;
+    }
+
+
+    .copyright p{
+    text-align: left;
+    color: #868e96;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:1000px) and (min-width:751px) {
+
+    body{
+        margin: 0px ;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .carousel-item {
+        height:550px; 
+        background-size: cover; 
+        background-position: center center;
+    }
+
+    .dog-gallery img{
+        margin-bottom: 20px;
+    }
+
+
+    .secondbox h2{
+        font-size: 50px;
+        margin-top: 100px;
+        font-weight: 400;
+    }
+
+
+    .secondbox h6{
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+
+
+    .secondbox img{
+        margin-bottom: 400px;
+    }
+
+
+    .secondbox p{
+        font-size: 19px;
+    }
+
+
+    .secondbox a{
+        font-size: 19px;
+    }
+
+
+    .thirdbox h2{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+    .thirdbox p{
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+
+    .thirdbox h5{
+        font-size: 28px;
+    }
+
+
+    .fourthbox h2{
+        font-size: 40px;
+    }
+
+
+    .fourthbox p{
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+
+    .fifthbox h2{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+    .fifthbox p{
+        font-size: 23px;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+
+    .blog-left img{
+        margin-bottom: 150px;
+    }
+    
+
+    .blog-right span {
+        font-size: 19px;
+    }
+
+
+    .blog-right h3 a {
+        font-size: 22px;
+        line-height: 0px;
+    }
+
+
+    .blog-right p{
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+   
+    .blog-right button {
+        font-size: 18px;
+        margin-top: 1px;
+        margin-bottom: 10px;
+    }
+
+
+    .top-right span{
+        font-size: 19px;
+    }
+
+
+    .top-right h3 a{
+        font-size: 21px;
+        line-height: 0px;
+    }
+
+
+    .top-right button{
+        font-size: 18px;
+    }
+
+
+    .bottom-right span{
+        font-size: 19px;
+    }
+
+
+    .bottom-right h3 a{
+        font-size: 21px;
+        line-height: 0px;
+    }
+
+
+    .bottom-right button{
+        font-size: 18px;
+        margin-top: -30px;
+    }
+
+
+    .boxone h3{
+        font-size: 22px;
+    }
+
+
+    .boxone p{
+        font-size:19px ;
+    }
+
+    
+    .boxtwo h3{
+        font-size: 22px;
+    }
+
+
+    .boxtwo h6{
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+
+    .boxtwo p{
+        font-size:20px ;
+    }
+
+
+    .boxthree h3{
+        font-size: 22px;
+        margin-left: 0px;
+    }
+
+
+    .boxthree ul{
+        margin-top: 25px;
+        margin-left:0px ;
+        padding: 0px;
+    }
+
+
+    .boxthree a{
+        font-size: 18px;
+    }
+
+
+    .footer p{
+        font-size: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width:1200px) and (min-width:1000px){
+
+    body{
+        margin: 0px ;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .carousel-item {
+        height:600px; 
+        background-size: cover; 
+        background-position: center center;
+    }
+
+
+
+    .secondbox h2{
+        font-size: 50px;
+    }
+
+
+    .secondbox p{
+        font-size: 20px;
+    }
+
+
+    .secondbox a{
+        font-size: 20px;
+    }
+
+
+    .thirdbox h2{
+        font-size: 50px;
+    }
+
+
+    .thirdbox p{
+        font-size: 24px;
+    }
+
+
+    .fourthbox h2{
+        font-size: 50px;
+    }
+
+
+    .fourthbox p{
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+
+    .dog-gallery img{
+        margin-bottom: 0px;
+    }
+
+
+    .fifthbox h2{
+        font-size: 50px;
+    }
+
+
+    .fifthbox p{
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+
+    .blog-left img{  
+        margin-bottom: 150px;
+    }
+
+    
+    .blog-right span {
+        font-size: 20px;
+    }
+
+
+    .blog-right h3 a {
+        font-size: 23px;
+        line-height: 0px;
+    }
+
+
+    .blog-right p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+   
+    .blog-right button {
+        font-size: 17px;
+        margin-top: -145px;
+    }
+
+
+    .top-right span{
+        font-size: 20px;
+    }
+
+
+    .top-right h3 a{
+        font-size: 21px;
+        line-height: 0px;
+    }
+
+
+    .top-right button{
+        font-size: 17px;
+
+    }
+
+
+    .bottom-right span{
+        font-size: 20px;
+    }
+
+
+    .bottom-right h3 a{
+        font-size: 21px;
+        line-height: 0px;
+    }
+
+
+    .bottom-right button{
+        font-size: 17px;
+        margin-top: -30px;
+    }
+
+
+    .boxone h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+
+    .boxone p{
+        font-size: 20px;
+    }
+
+
+    .boxtwo h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+
+    .boxtwo p{
+        font-size: 20px;
+    }
+
+
+    .boxtwo h6{
+        font-size: 18px;
+    }
+
+
+    .boxthree h3{
+        font-size: 30px;
+        margin-left: 50px;
+        font-weight: 600;
+    }
+
+
+    .boxthree ul{
+        margin-top: 20px;
+        margin-left: 50px;
+        padding-left:0px ;
+    }
+
+
+    .boxthree a{
+        font-size: 21px;
+    }
+
+
+    .footer p{
+        font-size: 23px;
+    }
+
+}
+
+
+
+

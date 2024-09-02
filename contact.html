@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog life</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
+
+  <style>
+
+    .carousel-caption{
+      margin-top: 30px !important;
+    }
+
+   
+       
+    .twobox{
+      padding: 50px 0px 50px 0px;
+    }
+
+    .query h2{
+      text-align: center;
+      font-family: "nunito";
+      margin-bottom: 50px;
+      font-size: 35px;
+      font-weight: bold;
+          
+    }
+
+    .map-left{
+      float: left;
+    }
+
+    .map-right{
+        float: right;
+    }
+
+    .map-right form{
+      float: left;
+      margin-left: 15px;
+    }
+
+    .subject{
+      margin-top: 25px;
+    }
+
+    #message{
+      margin-top: 20px;
+    }
+
+    .map-right button{
+      background-color: #fea116;
+      font-size: 15px;
+      color: #fff;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    .map-right:hover button{
+      background-color: #ffc107;
+      color: #fff;
+    }
+
+    .carousel{
+      height: 600px;
+    }
+
+      
+    .thirdbox P{
+      padding: 0px 20px;
+      margin-bottom: 0px;
+      font-weight: 400;
+      background-color: #fff;
+      font-size: 15px;
+      text-align: center; 
+    }
+
+    .thirdbox h5{
+      margin-bottom: 0px;
+      padding: 0px;
+    }
+
+ 
+    .carousel {
+      background-color: #f8f9fa;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 1200px; 
+    }
+
+
+    .carousel-cell {
+      margin-right: 10px; 
+      text-align: center; 
+    }
+
+
+    .owner img {
+      width: 100%;
+    }
+
+
+    .caption {
+      padding: 10px;
+      border-radius: 8px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+
+    .carousel-cell h5 {
+      padding-top: 15px; 
+      padding-bottom: 10px; 
+      font-size: 18px; 
+      color: #333;
+      font-size: 20px;
+    
+    }
+
+    .flickity-page-dots .dot {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+
+    .carousel-cell p {
+    padding-top: 0px; 
+    padding-bottom: 20px; 
+    font-size: 14px; 
+    color: #666;
+    }
+
+    .boxthree ul{
+      margin-left: 29px;
+    }
+
+
+    @media only screen and (max-width:750px) and (min-width:200px){
+
+      html,body{
+        margin: 0px ;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+
+      .carousel-item{
+        height: 350px !important;
+      }
+
+      
+      .carousel-caption{
+        margin-top: -0px !important;
+      }
+
+      .carousel-caption button{
+        margin-top: -1px;
+        font-size: 12px;
+      }
+
+
+      
+   
+
+      .contact h1{
+        font-size: 40px;
+        }
+
+      .map-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .map-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+
+      .carousel-caption{
+        margin-top: -80px !important;
+      }
+
+   
+
+      .carousel-caption h1{
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      .carousel-caption button{
+        margin-top: 3px;
+      }
+
+      .query h2{
+        font-size: 27px;
+      }
+
+      .thirdbox h2{
+        font-size: 27px;
+      }
+
+      .thirdbox {
+        font-size: 20px;
+      }
+
+
+
+      .flickity-enabled.is-draggable{
+        height: 700px;
+      }
+
+      .owner img{
+        width: 100%;
+      }
+
+      .boxthree ul {
+        margin-left: 0px;
+      }
+
+
+
+    }
+
+
+    @media only screen and (max-width:1000px) and (min-width:751px){
+      html,body{
+        margin: 0px ;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+
+      .carousel-item{
+        height: 500px;
+      }
+
+      
+      .carousel-caption{
+        margin-top: -20px !important;
+      }
+
+      .carousel-caption h1{
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .carousel-caption p{
+        font-size: 15px;
+      }
+
+      .carousel-caption button{
+        margin-top: 3px;
+      }
+
+      .query h2{
+        font-size: 32px;
+      }
+
+      .contact h1{
+        font-size: 70px;
+      }
+
+      .map-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .map-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 40px;
+      
+      }
+
+      .thirdbox h2{
+        margin-top: 50px;
+        font-size: 32px;
+      }
+
+      .thirdbox p{
+        line-height: 30px;
+      }
+
+      .flickity-enabled.is-draggable{
+        height: 600px;
+      }
+
+      .boxthree ul {
+        margin-left: 10px;
+      }
+
+      
+
+    }
+
+
+    @media only screen and (max-width:1300px) and (min-width:1000px){
+
+      html,body{
+        margin: 0px ;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+
+      .carousel-caption{
+        margin-top: 10px !important;
+      }
+
+      .contact h1{
+        font-size: 100px;
+      }
+
+      iframe{
+        width: 500px;
+      }
+
+      
+
+
+
+          
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
+    <div class="container">
+  
+      <a class="navbar-brand" href="index.html">BREED</a>
+  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarContent">
+  
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active" >HOME</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="breed.html">BREED</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"> <span style="color: #fff;">CONTACT</span></a>
+          </li>
+  
+        </ul>
+             
+      </div>
+    </div>
+  </nav>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url(img/slider-1.jpg.webp);">
+      <div class="carousel-caption" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear">
+          <h1>CONTACT US</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,<br> necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+          <button type="button" class="btn">EXPLORE</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="twobox">
+    <div class="container">
+    <div class="row">
+
+        <div class="col-lg-12 query" data-aos="zoom-out"  data-aos-duration="1000" data-aos-delay="50">
+            <h2>Contact For Any Query </h2>
+           
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 map-left mr-0 p-0" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="50" >
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.
+            03900799053!2d72.88118615!3d19.082250749999996!2m3!1f0!2f0!3f0!3m2!1i1024!
+            2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C
+            %20Maharashtra!5e0!3m2!1sen!2sin!4v1724508352883!5m2!1sen!2sin" width="550"
+            height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpo
+            licy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 map-right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50" >
+
+            <form action="form.html" onsubmit=" return formdata()">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" id="phone" placeholder="Phone">
+                  </div>
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control subject" id="email" placeholder="Email">
+                </div>
+
+
+                <div class="form-group">
+                    <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-lg btn-block">SEND MESSAGE</button>
+
+                
+
+
+              </form>
+
+
+
+
+        </div>
+    </div>
+</div>
+  </div>
+
+
+  <div class="thirdbox">
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-12" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1500">
+          <h2>TESTIMONIAL</h2>
+          <p style="background-color: #f8f9fa;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Commodi unde impedit, <br> necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.
+          </p>
+          
+        </div>
+
+        <div class="carousel" data-flickity='{ "wrapAround": true, "groupCells": true }'>
+
+          <div class="carousel-cell col-lg-4 col-md-6 col-sm-12 owner" data-aos="zoom-in-right" data-aos-delay="300" data-aos-duration="1500">
+            <a href="#"><img src="img/person_1.jpg.webp" class="img-fluid" alt=""></a>
+            <h5 >Mellisa Howard <span style="font-style: italic;">Says...</span></h5>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Impedit sapiente odit, non nam debitis repudiandae! Optio magni accusamus, nihil 
+            dolores error placeat incidunt architecto obcaecati? Aspernatur enim quidem repudiandae illo.</P>
+          </div>
+
+          <div class="carousel-cell col-lg-4 col-md-6 col-sm-12 owner" data-aos="zoom-out" data-aos-delay="400" data-aos-duration="2000">
+            <a href="#"><img src="img/person_2.jpg.webp" class="img-fluid" alt=""></a>
+            <h5>Mike Richardson <span style="font-style: italic;">Says...</span>  </h5>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit sapiente odit, non nam 
+            debitis repudiandae! Optio magni accusamus, nihil dolores error placeat incidunt architecto
+            obcaecati? Aspernatur enim quidem repudiandae illo.</P>
+          </div>
+
+          <div class="carousel-cell col-lg-4 col-md-6 col-sm-12 owner" data-aos="zoom-out-up" data-aos-delay="500" data-aos-duration="3000">
+            <a href="#"><img src="img/person_3.jpg.webp" class="img-fluid" alt=""></a>
+            <h5>Charles White <span style="font-style: italic;">Says...</span>  </h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur voluptates illum 
+            perspiciatis ducimus aut consequatur ipsam dolore aliquid quod maiores ea dolorum quas,
+            earum quo rem obcaecati reprehenderit iusto eveniet!</p>
+          </div>
+
+          <div class="carousel-cell col-lg-4 col-md-6 col-sm-12 owner" data-aos="zoom-out-up" data-aos-delay="500" data-aos-duration="3000">
+            <a href="#"><img src="img/person4.jpeg" class="img-fluid" alt=""></a>
+            <h5>Laura Smith <span style="font-style: italic;">Says...</span> </h5>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit sapiente odit, 
+            non nam debitis repudiandae! Optio magni accusamus, nihil dolores error placeat incidunt 
+            architecto obcaecati? Aspernatur enim quidem repudiandae illo.</P>
+          </div>
+
+      </div>
+
+        
+        
+
+      </div>
+    </div>
+  </div>
+
+      
+  <div class="footer" >
+        
+    <div class="container ">
+      <div class="row" >
+
+        <div class="col-lg-4 col-md-4 col-sm-12 boxone">
+          <h3>About The Breed</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita. </p>
+          
+          <div class="social-menu">
+
+            <ul>
+              <a href="index.html"><i class="fa-brands fa-twitter"></i></a>
+              <a href="index.html"><i class="fa-brands fa-facebook"></i></a>
+              <a href="index.html"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="index.html"><i class="fa-brands fa-instagram"></i></a>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 boxtwo">
+          <h3>Contact Info</h3>
+
+          <p>Address:</p>
+          <h6>34 Street ,New Mumbai, INDIA  </h6>
+
+          <p>Telephone:</p>
+          <h6>+1 242 4942 290</h6>
+
+          <p>Email:</p>
+          <h6>info@yourdomain.com</h6>
+        
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 boxthree">
+          <h3>Quick Links</h3>
+
+          <ul>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="breed.html">Breed</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html"><span style="color: #fff;">Contact</span></a></li>
+                
+            </ul>
+              
+          </ul>
+        </div>
+
+        <div class="col-12 copyright">
+          <p>Copyright ©2024 All rights reserved</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    
+  <script src="js/js.js"></script>
+  <script src="assets/dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+
+
+</body>
+</html>
